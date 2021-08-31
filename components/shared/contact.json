@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_contacts",
+  "info": {
+    "name": "contact",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

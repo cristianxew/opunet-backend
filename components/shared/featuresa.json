@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_featuresas",
+  "info": {
+    "name": "featuresa",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "feature": {
+      "type": "string"
+    }
+  }
+}

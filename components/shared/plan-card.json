@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_plan_cards",
+  "info": {
+    "name": "planCard",
+    "icon": "border-all",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "planName": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.featuresa"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    }
+  }
+}

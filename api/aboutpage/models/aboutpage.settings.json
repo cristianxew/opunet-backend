@@ -1,0 +1,98 @@
+{
+  "kind": "singleType",
+  "collectionName": "aboutpages",
+  "info": {
+    "name": "aboutpage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "section1Title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    },
+    "section1Images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "section1Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "headerBackground": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "mission": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    },
+    "vision": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.testimonials"
+    },
+    "ourTeamTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    },
+    "teamMember": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.team"
+    },
+    "ourClientsTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    },
+    "clientsLogos": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "headerTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "name": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "slider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.slider"
+    },
+    "section1Title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    },
+    "section1Cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.card"
+    },
+    "section2Title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    },
+    "section2Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "section3Title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    },
+    "section3Video": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "section4Title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    },
+    "whyChooseUsTabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.tab"
+    },
+    "sectionPricingTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    },
+    "pricingPlans": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.plan-card"
+    },
+    "ecommercePlanTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    },
+    "ecommercePlanCard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.ecommerce-plan-card"
+    },
+    "callToAction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.call-to-action"
+    },
+    "parallax": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.parallax"
+    },
+    "latestPostsTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    },
+    "section2Images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "section3VideoPreview": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_tabs",
+  "info": {
+    "name": "tab",
+    "icon": "ambulance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.featuresa"
+    }
+  }
+}

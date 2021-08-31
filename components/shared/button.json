@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_buttons",
+  "info": {
+    "name": "button",
+    "icon": "bacon"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

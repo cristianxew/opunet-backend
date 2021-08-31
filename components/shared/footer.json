@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_footers",
+  "info": {
+    "name": "footer",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.contact"
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.social"
+    }
+  }
+}

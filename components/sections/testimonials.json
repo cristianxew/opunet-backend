@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_testimonials",
+  "info": {
+    "name": "testimonials",
+    "icon": "band-aid"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "testimony": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.testimony"
+    }
+  }
+}

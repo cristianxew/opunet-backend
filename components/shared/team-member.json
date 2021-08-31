@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_team_members",
+  "info": {
+    "name": "teamMember",
+    "icon": "chalkboard-teacher"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

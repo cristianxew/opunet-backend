@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_sections_parallaxes",
+  "info": {
+    "name": "parallax",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "bigText1": {
+      "type": "string"
+    },
+    "bigText2": {
+      "type": "string"
+    },
+    "smalltext": {
+      "type": "text"
+    },
+    "backgroundImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

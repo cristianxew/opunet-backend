@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_features",
+  "info": {
+    "name": "features",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "texts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.texts"
+    }
+  }
+}

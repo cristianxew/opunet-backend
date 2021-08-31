@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_call_to_actions",
+  "info": {
+    "name": "callToAction",
+    "icon": "arrow-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    }
+  }
+}

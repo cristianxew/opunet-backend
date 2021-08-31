@@ -1,0 +1,88 @@
+{
+  "kind": "singleType",
+  "collectionName": "how_we_do_it_pages",
+  "info": {
+    "name": "how-we-do-it-page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "headerTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    },
+    "headerBackground": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "oldWayTitle": {
+      "type": "string"
+    },
+    "oldWaySubTitle": {
+      "type": "string"
+    },
+    "oldWayContent": {
+      "type": "richtext"
+    },
+    "oldWayFeatures": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.features"
+    },
+    "betterWayTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    },
+    "betterWayContent": {
+      "type": "richtext"
+    },
+    "betterWayFeatures": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.features"
+    },
+    "oldWayImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "betterWayImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "callToActionButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    }
+  }
+}

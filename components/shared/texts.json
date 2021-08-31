@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_texts",
+  "info": {
+    "name": "texts",
+    "icon": "arrows-alt-h"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

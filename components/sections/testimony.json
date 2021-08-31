@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sections_testimonies",
+  "info": {
+    "name": "testimony",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date"
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

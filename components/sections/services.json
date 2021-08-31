@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_services",
+  "info": {
+    "name": "services",
+    "icon": "building"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
